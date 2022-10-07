@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="color: white;">TheCakeGallery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#products" style="color: white;">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about" style="color: white;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact" style="color: white;">Contact Us</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pro7.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <div class="container pt-5 pb-5" id="products">
+        <div class="row">
+            <div id="section-title">
+                <span>Products</span>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="img1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center fw-bold m-0">Product Title</p>
+                        <p class="text-center fw-bold">
+                            <span class="text-warning">Prices</span>
+                            <span class="text-danger">30$</span>
+                        </p>
+                        <button class="btn btn-primary btn-sm d-flex m-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="pro2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center fw-bold m-0">Product Title</p>
+                        <p class="text-center fw-bold">
+                            <span class="text-warning">Prices</span>
+                            <span class="text-danger">30$</span>
+                        </p>
+                        <button class="btn btn-primary btn-sm d-flex m-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="pro3.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center fw-bold m-0">Product Title</p>
+                        <p class="text-center fw-bold">
+                            <span class="text-warning">Prices</span>
+                            <span class="text-danger">30$</span>
+                        </p>
+                        <button class="btn btn-primary btn-sm d-flex m-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="pro4.jpeg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center fw-bold m-0">Product Title</p>
+                        <p class="text-center fw-bold">
+                            <span class="text-warning">Prices</span>
+                            <span class="text-danger">30$</span>
+                        </p>
+                        <button class="btn btn-primary btn-sm d-flex m-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="pro5.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center fw-bold m-0">Product Title</p>
+                        <p class="text-center fw-bold">
+                            <span class="text-warning">Prices</span>
+                            <span class="text-danger">30$</span>
+                        </p>
+                        <button class="btn btn-primary btn-sm d-flex m-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3 mb-3 d-flex justify-content-center">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="pro6.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center fw-bold m-0">Product Title</p>
+                        <p class="text-center fw-bold">
+                            <span class="text-warning">Prices</span>
+                            <span class="text-danger">30$</span>
+                        </p>
+                        <button class="btn btn-primary btn-sm d-flex m-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Quick View
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid" id="about">
+        <div class="row pt-5 pb-5">
+            <div id="section-title" class="pb-2">
+                <span>About</span>
+            </div>
+            <div class="col-8 m-auto">
+                <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit iusto architecto saepe. Maiores illum quidem ipsam minima totam dolorem nesciunt eaque iste rerum culpa, odit voluptate mollitia repellat dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi assumenda molestiae, culpa, maxime totam, corrupti itaque dicta illum debitis libero accusamus numquam possimus. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="contact">
+        <div class="row pt-5 pb-5">
+            <div id="section-title" class="pb-2">
+                <span>Contact</span>
+            </div>
+            <div class="col-6 m-auto p-5">
+               <form action="">
+                <div class="mb-3">
+                    <input type="email" placeholder="Email address" class="form-control" required="">
+                </div>
+                <div class="mb-3">
+                    <input type="text" placeholder="Subject" class="form-control" required="">
+                </div>
+                <div class="mb-3">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Type Message" class="form-control" required=""></textarea>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary btn-sm" >Send Message</button>
+                </div>
+             </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-dark p-3">
+                <p class="text-center m-0 text-white">Copyright &copy; www.TheCakeGallery.com ! All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Product title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div id="large-img">
+                        <img src="img1.jpg" alt="">
+                    </div>
+                    <div id="gallery">
+                        <div><img src="img1.jpg" alt=""></div>
+                        <div><img src="img1.jpg" alt=""></div>
+                        <div><img src="img1.jpg" alt=""></div>
+                        <div><img src="img1.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p class="fw-bold">
+                        <span class="text-warning">Prices</span>
+                        <span class="text-danger">30$</span>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iusto officia unde voluptatum minus aspernatur? Dignissimos, adipisci ad at temporibus vitae et maiores tenetur voluptates cumque, suscipit dolore eum possimus!</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
+</html>
